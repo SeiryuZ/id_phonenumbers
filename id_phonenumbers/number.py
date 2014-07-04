@@ -18,6 +18,8 @@ class Number(object):
         self.area_name = None
         self.is_mobile = False
 
+        self.parse()
+
     def __unicode__(self):
         return "%s" % self.__dict__
 
