@@ -10,7 +10,6 @@ class Parser(object):
 
     def __init__(self, phone):
         self.phone = phone
-        self.province_name = ''
         self.area_code = ''
         self.area_name = ''
         self.carrier = ''
