@@ -10,9 +10,9 @@ class Parser(object):
 
     def __init__(self, phone):
         self.phone = phone
-        self.area_code = ''
-        self.area_name = ''
-        self.carrier = ''
+        self.area_code = None
+        self.area_name = None
+        self.carrier = None
         self.is_mobile = False
 
     def __unicode__(self):
