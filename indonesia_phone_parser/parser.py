@@ -1,6 +1,4 @@
 import phonenumbers
-# preload carrier
-from phonenumbers import carrier as phonenumber_carrier  # noqa
 
 from indonesia_phone_parser.area_code_metadata import AREA_CODE
 from indonesia_phone_parser.carriers_metadata import CDMA_PREFIX
