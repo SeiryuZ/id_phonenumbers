@@ -1,10 +1,10 @@
 import phonenumbers
 
-from indonesia_phone_parser.area_code_metadata import AREA_CODE
-from indonesia_phone_parser.carriers_metadata import CDMA_PREFIX
+from id_phonenumbers.area_code_metadata import AREA_CODE
+from id_phonenumbers.carriers_metadata import CDMA_PREFIX
 
 
-class Parser(object):
+class Number(object):
 
     def __init__(self, phone):
         self.phone = phone
