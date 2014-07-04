@@ -5,14 +5,14 @@ Work in Progress
 
 ## Quickstart (Temporary)
 ```python
-from indonesia_phone_parser import parser
-p = parser.Parser('025221123456')
-p.parse()
+from id_phonenumbers import parse
 
-p.is_mobile
-p.carrier
-p.area_name
-p.area_code
+number = parse('025221123456')
+
+number.is_valid
+number.is_mobile
+number.regional_number
+number.carrier
 
 ```
 
