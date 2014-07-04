@@ -1,6 +1,7 @@
 CDMA_PREFIX = {
 
     "9": "Esia",  # (Area-Code) - 9xxx-xxxx
+    "80": "Esia",  # 021 - 80xx-xxxx
     "83": "Esia",  # 021-83xx-xxxx
 
     "54": "TelkomFlexi",  # (area-code)-54xx-xxxx
@@ -21,15 +22,4 @@ CDMA_PREFIX = {
     "21": "Hepi (Mobile-8)",  # (Area-code)-21xx-xxxx
     "31": "Hepi (Mobile-8)",  # (Area-code)-31xx-xxxx
 
-}
-
-CDMA_PREFIX_SPECIAL_AREA_CODE = {
-    "2180": "Esia",  # 021 - 80xx-xxxx
-    "2183": "Esia",  # 021 - 83xx-xxxx,
-
-    "2170": "TelkomFlexi",  # 021-70xx-xxxx
-    "2168": "TelkomFlexi",  # 021-68xx-xxxx
-
-    "2130": "Indosat",  # 021-30xx-xxxx
-    "3160": "Indosat",  # 031-60xx-xxxx
 }
