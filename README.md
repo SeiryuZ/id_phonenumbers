@@ -15,3 +15,9 @@ p.area_name
 p.area_code
 
 ```
+
+
+## Test
+```
+python -m unittest discover
+```
