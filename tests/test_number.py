@@ -41,3 +41,10 @@ class TestNumber(unittest.TestCase):
 
         self.assertEqual(parser.carrier, "Hepi (Mobile-8)")
         self.assertEqual(parser.is_mobile, True)
+
+        # GSM, should be mobile
+        parser = Number('087782357971')
+        parser.parse()
+
+        self.assertEqual(parser.carrier, "XL")
+        self.assertEqual(parser.is_mobile, True)

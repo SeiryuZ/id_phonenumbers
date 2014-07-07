@@ -23,3 +23,50 @@ CDMA_PREFIX = {
     "31": "Hepi (Mobile-8)",  # (Area-code)-31xx-xxxx
 
 }
+
+
+GSM_PREFIX = {
+    # Indosat
+    "814": "Matrix",
+    "815": "Matrix / Mentari",
+    "816": "Matrix / Mentari",
+    "855": "Matrix",
+
+    "858": "Mentari",
+
+    "856": "IM3",
+    "857": "IM3",
+
+    # Telkomsel
+    "811": "Kartu HALO",
+    "812": "Kartu HALO / Simpati",
+
+    "813": "Simpati",
+    "821": "Simpati",
+    "822": "Simpati",
+
+    "852": "Kartu As",
+    "853": "Kartu As",
+    "823": "Kartu As",
+
+    # PT XL Axiata
+    "817": "XL",
+    "818": "XL",
+    "819": "XL",
+    "859": "XL",
+    "877": "XL",
+    "878": "XL",
+    "879": "XL",
+
+    # PT Hutchison CP Telecommunications
+    "899": "3",
+    "898": "3",
+    "897": "3",
+    "896": "3",
+
+    # PT Axis Telekom Indonesia
+    "838": "Axis",
+    "832": "Axis",
+    "831": "Axis",
+
+}
