@@ -11,21 +11,21 @@ class TestNumber(unittest.TestCase):
 
         self.assertEqual(parser.area_code, '252')
         self.assertEqual(parser.area_name, 'Lebak')
-        self.assertEqual(parser.regional_number, '21123456')
+        self.assertEqual(parser.local_number, '21123456')
 
         parser = Number('+62216628884')
         parser.get_area_code()
 
         self.assertEqual(parser.area_code, '21')
         self.assertEqual(parser.area_name, 'Jakarta, Tangerang')
-        self.assertEqual(parser.regional_number, '6628884')
+        self.assertEqual(parser.local_number, '6628884')
 
         parser = Number('087782357971')
         parser.get_area_code()
 
         self.assertEqual(parser.area_code, None)
         self.assertEqual(parser.area_name, None)
-        self.assertEqual(parser.regional_number, '87782357971')
+        self.assertEqual(parser.local_number, '87782357971')
 
     def test_parse(self):
         # Landline, should not be mobile
