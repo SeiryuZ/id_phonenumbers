@@ -1,9 +1,7 @@
+# Indonesia Phonenumber Parser
 
-# Indonesia Phone Parser
 
-Work in Progress
-
-## Quickstart (Temporary)
+## Quickstart
 ```python
 from id_phonenumbers import parse
 
