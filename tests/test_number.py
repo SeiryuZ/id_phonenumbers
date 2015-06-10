@@ -48,3 +48,10 @@ class TestNumber(unittest.TestCase):
 
         self.assertEqual(parser.carrier, "XL")
         self.assertEqual(parser.is_mobile, True)
+
+        # Mobile CDMA
+        parser = Number('088819001234')
+        parser.parse()
+
+        self.assertEqual(parser.carrier, "Smartfren")
+        self.assertEqual(parser.is_mobile, True)

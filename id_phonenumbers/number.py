@@ -1,6 +1,7 @@
 import phonenumbers
 
-from id_phonenumbers.data import AREA_CODE, CDMA_PREFIXES, GSM_PREFIXES
+from id_phonenumbers.data import (AREA_CODE, CDMA_PREFIXES,
+                                  GSM_PREFIXES, MOBILE_CDMA_PREFIXES)
 
 
 class Number(object):
@@ -48,12 +49,16 @@ class Number(object):
 
         number_length = len(self.local_number)
 
+        # Check if this is a fixed CDMA number
+        if number_length == 11:
+            self.carrier = MOBILE_CDMA_PREFIXES.get(self.local_number[:3])
+
         # GSM prefix always have 10 to 12 number length.
-        if number_length in (9, 10, 11):
+        if self.carrier is None and number_length in (9, 10, 11):
             self.carrier = GSM_PREFIXES.get(self.local_number[:3])
 
         # Try to check CDMA prefix, always have 8 number length
-        if number_length == 8:
+        if self.carrier is None and number_length == 8:
             self.carrier = CDMA_PREFIXES.get(self.local_number[:2]) \
                 or CDMA_PREFIXES.get(self.local_number[:1])
 
