@@ -24,6 +24,17 @@ CDMA_PREFIXES = {
 
 }
 
+MOBILE_CDMA_PREFIXES = {
+    "827": "Ceria",
+    "828": "Ceria",
+
+    "881": "Smart",
+    "882": "Smart",
+
+    "887": "Smartfren",
+    "888": "Smartfren",
+    "889": "Smartfren",
+}
 
 GSM_PREFIXES = {
     # Indosat
