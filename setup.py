@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='id_phonenumbers',
     packages=['id_phonenumbers'],
-    version='0.1.1',
+    version='0.1.2',
     description='Indonesian Phonenumbers Parser',
     license='MIT',
     author='Steven',
@@ -11,7 +11,7 @@ setup(
     url='https://github.com/SeiryuZ/id_phonenumbers',
     download_url='https://github.com/SeiryuZ/id_phonenumbers/tarball/0.1.0',
     keywords=['phonenumbers', 'Indonesia'],
-    install_requires=['phonenumbers'],
+    install_requires=['phonenumberslite'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
