@@ -9,7 +9,7 @@ setup(
     author='Steven',
     author_email='stvn.bu@gmail.com',
     url='https://github.com/SeiryuZ/id_phonenumbers',
-    download_url='https://github.com/SeiryuZ/id_phonenumbers/tarball/0.1.0',
+    download_url='https://github.com/SeiryuZ/id_phonenumbers/tarball/0.1.3',
     keywords=['phonenumbers', 'Indonesia'],
     install_requires=['phonenumberslite'],
     classifiers=[
