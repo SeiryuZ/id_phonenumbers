@@ -55,7 +55,8 @@ GSM_PREFIXES = {
     "813": "Simpati",
     "821": "Simpati",
     "822": "Simpati",
-
+    
+    "851": "Kartu As",
     "852": "Kartu As",
     "853": "Kartu As",
     "823": "Kartu As",
