@@ -55,3 +55,9 @@ class TestNumber(unittest.TestCase):
 
         self.assertEqual(parser.carrier, "Smartfren")
         self.assertEqual(parser.is_mobile, True)
+
+        parser = Number('08886175555')
+        parser.parse()
+
+        self.assertEqual(parser.carrier, "Smartfren")
+        self.assertEqual(parser.is_mobile, True)
