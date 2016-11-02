@@ -50,7 +50,7 @@ class Number(object):
         number_length = len(self.local_number)
 
         # Check if this is a fixed CDMA number
-        if number_length == 11:
+        if number_length == 10 or number_length == 11:
             self.carrier = MOBILE_CDMA_PREFIXES.get(self.local_number[:3])
 
         # GSM prefix always have 10 to 12 number length.

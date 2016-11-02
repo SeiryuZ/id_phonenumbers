@@ -1,5 +1,10 @@
 # Indonesia Phonenumber Parser
 
+## Installation
+```sh
+pip install id_phonenumbers
+```
+
 
 ## Quickstart
 ```python
@@ -15,6 +20,6 @@ number.carrier
 
 
 ## Test
-```
+```sh
 python -m unittest discover
 ```
