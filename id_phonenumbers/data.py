@@ -54,12 +54,14 @@ GSM_PREFIXES = {
 
     "813": "Simpati",
     "821": "Simpati",
-    "822": "Simpati",
-    
+
+    "822": "LOOP",
+    "854": "LOOP",
+
+    "823": "Kartu As",
     "851": "Kartu As",
     "852": "Kartu As",
     "853": "Kartu As",
-    "823": "Kartu As",
 
     # PT XL Axiata
     "817": "XL",
@@ -70,16 +72,19 @@ GSM_PREFIXES = {
     "878": "XL",
     "879": "XL",
 
+    # AXIS, acquired by XL
+    "838": "Axis",
+    "833": "Axis",
+    "832": "Axis",
+    "831": "Axis",
+
     # PT Hutchison CP Telecommunications
     "899": "3",
     "898": "3",
     "897": "3",
     "896": "3",
-
-    # PT Axis Telekom Indonesia
-    "838": "Axis",
-    "832": "Axis",
-    "831": "Axis",
+    "895": "3",
+    "894": "3",
 
 }
 
