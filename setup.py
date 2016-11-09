@@ -3,13 +3,13 @@ from setuptools import setup
 setup(
     name='id_phonenumbers',
     packages=['id_phonenumbers'],
-    version='0.1.6',
+    version='0.1.7',
     description='Indonesian Phonenumbers Parser',
     license='MIT',
     author='Steven',
     author_email='stvn.bu@gmail.com',
     url='https://github.com/SeiryuZ/id_phonenumbers',
-    download_url='https://github.com/SeiryuZ/id_phonenumbers/tarball/0.1.4',
+    download_url='https://github.com/SeiryuZ/id_phonenumbers/tarball/0.1.7',
     keywords=['phonenumbers', 'Indonesia'],
     install_requires=['phonenumberslite'],
     classifiers=[

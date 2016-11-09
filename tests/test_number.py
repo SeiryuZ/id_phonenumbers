@@ -49,6 +49,13 @@ class TestNumber(unittest.TestCase):
         self.assertEqual(parser.carrier, "XL")
         self.assertEqual(parser.is_mobile, True)
 
+        # GSM, 13 number
+        parser = Number('0877823579710')
+        parser.parse()
+
+        self.assertEqual(parser.carrier, "XL")
+        self.assertEqual(parser.is_mobile, True)
+
         # Mobile CDMA
         parser = Number('088819001234')
         parser.parse()

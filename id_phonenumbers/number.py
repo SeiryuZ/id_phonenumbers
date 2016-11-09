@@ -53,8 +53,8 @@ class Number(object):
         if number_length == 10 or number_length == 11:
             self.carrier = MOBILE_CDMA_PREFIXES.get(self.local_number[:3])
 
-        # GSM prefix always have 10 to 12 number length.
-        if self.carrier is None and number_length in (9, 10, 11):
+        # GSM
+        if self.carrier is None and number_length in (9, 10, 11, 12):
             self.carrier = GSM_PREFIXES.get(self.local_number[:3])
 
         # Try to check CDMA prefix, always have 8 number length
