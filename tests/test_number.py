@@ -1,9 +1,19 @@
 import unittest
+import phonenumbers
 
 from id_phonenumbers.number import Number
 
 
 class TestNumber(unittest.TestCase):
+
+    def test_international_number(self):
+        with self.assertRaises(phonenumbers.NumberParseException):
+            parser = Number('+6565166666')
+            parser.parse()
+
+        with self.assertRaises(phonenumbers.NumberParseException):
+            parser = Number('+9665166666')
+            parser.parse()
 
     def test_parse_area_code(self):
         parser = Number('025221123456')

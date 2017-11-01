@@ -47,6 +47,13 @@ class Number(object):
     def parse(self):
         self.parse_area_code()
 
+        # Check for country code
+        if self._phone.country_code != 62:
+            raise phonenumbers.NumberParseException(
+                phonenumbers.NumberParseException.INVALID_COUNTRY_CODE,
+                "Number is not Indonesian number"
+            )
+
         number_length = len(self.local_number)
 
         # Check if this is a fixed CDMA number
