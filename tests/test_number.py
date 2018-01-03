@@ -46,10 +46,10 @@ class TestNumber(unittest.TestCase):
         self.assertEqual(parser.is_mobile, False)
 
         # CDMA, should be mobile
-        parser = Number('025221123456')
+        parser = Number('025260123456')
         parser.parse()
 
-        self.assertEqual(parser.carrier, "Hepi (Mobile-8)")
+        self.assertEqual(parser.carrier, "Indosat")
         self.assertEqual(parser.is_mobile, True)
 
         # GSM, should be mobile
@@ -64,6 +64,12 @@ class TestNumber(unittest.TestCase):
         parser.parse()
 
         self.assertEqual(parser.carrier, "XL")
+        self.assertEqual(parser.is_mobile, True)
+
+        parser = Number("0895323361342")
+        parser.parse()
+
+        self.assertEqual(parser.carrier, "3")
         self.assertEqual(parser.is_mobile, True)
 
         # Mobile CDMA
