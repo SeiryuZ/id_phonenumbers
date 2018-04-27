@@ -49,8 +49,9 @@ class TestNumber(unittest.TestCase):
         parser = Number('025260123456')
         parser.parse()
 
-        self.assertEqual(parser.carrier, "Indosat")
-        self.assertEqual(parser.is_mobile, True)
+        # This number is gone now
+        self.assertEqual(parser.carrier, None)
+        self.assertEqual(parser.is_mobile, False)
 
         # GSM, should be mobile
         parser = Number('087782357971')
