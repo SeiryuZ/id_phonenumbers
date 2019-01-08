@@ -23,6 +23,9 @@ class Number(object):
     def __unicode__(self):
         return "%s" % self.__dict__
 
+    def __str__(self):
+        return "%s" % self.__dict__
+
     def parse_area_code(self):
         if self.phone:
             # Test for 3-number area code
