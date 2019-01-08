@@ -39,10 +39,10 @@ GSM_PREFIXES = {
     "879": "XL",
 
     # AXIS, acquired by XL
-    "838": "Axis",
-    "833": "Axis",
-    "832": "Axis",
-    "831": "Axis",
+    "838": "XL",
+    "833": "XL",
+    "832": "XL",
+    "831": "XL",
 
     # PT Hutchison CP Telecommunications
     "899": "3",
