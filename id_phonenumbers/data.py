@@ -14,20 +14,20 @@ GSM_PREFIXES = {
     "856": "IM3",
     "857": "IM3",
 
-    # Telkomsel
-    "811": "Kartu HALO",
-    "812": "Kartu HALO / Simpati",
+    # Telkomsel (Halo, Simpati, LOOP, AS)
+    "811": "Telkomsel",
+    "812": "Telkomsel",
 
-    "813": "Simpati",
-    "821": "Simpati",
+    "813": "Telkomsel",
+    "821": "Telkomsel",
 
-    "822": "LOOP",
-    "854": "LOOP",
+    "822": "Telkomsel",
+    "854": "Telkomsel",
 
-    "823": "Kartu As",
-    "851": "Kartu As",
-    "852": "Kartu As",
-    "853": "Kartu As",
+    "823": "Telkomsel",
+    "851": "Telkomsel",
+    "852": "Telkomsel",
+    "853": "Telkomsel",
 
     # PT XL Axiata
     "817": "XL",
