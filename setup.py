@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='id_phonenumbers',
     packages=['id_phonenumbers'],
-    version='0.3.3',
+    version='0.4.0',
     description='Indonesian Phonenumbers Parser',
     license='MIT',
     author='Steven',

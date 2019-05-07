@@ -51,8 +51,8 @@ GSM_PREFIXES = {
     "896": "3",
     "895": "3",
     "894": "3",
-    
-    #Smartfren
+
+    # Smartfren
     "881": "Smartfren",
     "882": "Smartfren",
     "883": "Smartfren",
