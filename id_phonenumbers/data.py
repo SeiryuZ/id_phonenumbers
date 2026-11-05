@@ -1,7 +1,7 @@
 CDMA_PREFIXES = {}
 
 MOBILE_CDMA_PREFIXES = {
-    # PT Sampoerna Telekomunikasi Indonesia (Ceria / Net1), CDMA per Wikipedia
+    # PT Sampoerna Telekomunikasi Indonesia (Ceria / Net1)
     "828": "Ceria",
 }
 
