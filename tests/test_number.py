@@ -87,7 +87,7 @@ class TestNumber(unittest.TestCase):
         self.assertEqual(parser.is_mobile, True)
 
         # Ceria / Net1
-        parser = Number('+6282811918897')
+        parser = Number('+6282811918800')
         parser.parse()
 
         self.assertEqual(parser.carrier, "Ceria")
