@@ -1,6 +1,9 @@
 CDMA_PREFIXES = {}
 
-MOBILE_CDMA_PREFIXES = {}
+MOBILE_CDMA_PREFIXES = {
+    # PT Sampoerna Telekomunikasi Indonesia (Ceria / Net1), CDMA per Wikipedia
+    "828": "Ceria",
+}
 
 GSM_PREFIXES = {
     # Indosat
