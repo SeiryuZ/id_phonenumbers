@@ -85,3 +85,12 @@ class TestNumber(unittest.TestCase):
 
         self.assertEqual(parser.carrier, "Smartfren")
         self.assertEqual(parser.is_mobile, True)
+        for phone in (
+            '+628542707770',
+            '+6285424041988',
+            '+628541105028',
+            '+6285422422266',
+        ):
+            parser = Number(phone)
+            self.assertIsNone(parser.carrier)
+            self.assertFalse(parser.is_mobile)
