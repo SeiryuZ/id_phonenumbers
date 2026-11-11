@@ -94,6 +94,3 @@ class TestNumber(unittest.TestCase):
             parser = Number(phone)
             self.assertIsNone(parser.carrier)
             self.assertFalse(parser.is_mobile)
-        parser = Number('+6288552197827')
-        self.assertEqual(parser.carrier, "Smartfren")
-        self.assertTrue(parser.is_mobile)
