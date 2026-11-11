@@ -22,6 +22,7 @@ GSM_PREFIXES = {
     "821": "Telkomsel",
 
     "822": "Telkomsel",
+    "854": "Telkomsel",
 
     "823": "Telkomsel",
     "851": "Telkomsel",
